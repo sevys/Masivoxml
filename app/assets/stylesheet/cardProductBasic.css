@@ -1,0 +1,27 @@
+#CardSizeBasic{
+    width: auto;
+    height: 700px;
+    border-radius: 20px;
+}
+#colorHeaderBasic{
+    background-color: #2369FF;
+    height: 65px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#buttonBasic{
+    background-color: #2369FF;
+    color:#FFFFFF;
+    width: 250px;
+    border-radius: 15px;
+    margin-block: 7px;
+    border-color: #2369FF;
+}
+.card-textBasic{
+    background-color:#FFFFFF;
+    height: 550px;
+    list-style-type:symbols("*");
+    text-align: left;
+    font-size:15px;
+}
+

@@ -1,18 +1,19 @@
-const path = require('path'); //formato commonJs
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const MiniCssExtractPlugin= require('mini-css-extract-plugin')
+var path = require('path');
 
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
+    mode: 'development',
     entry: './app/index.js',
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'public'),
         filename: 'bundle.js',
+        publicPath: "/public"
     },
     module: {
         rules: [
             {
-                test: /\.(js)$/,
+                test: /\.js$/,
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',
@@ -24,48 +25,29 @@ module.exports = {
                         ]
                     }
                 }
-            },  //Babel Loader
+            },
             {
-                test: /\.(png|gif|jpg|svg|jpeg)$/,
-                use: [
+                test:/\.(png|gif|jpg|svg)$/,
+                use:[
                     {
-                        loader: 'file-loader',
+                        loader: "file-loader",
                         options: {
-                            name: 'assets/images/[name].[ext]'
+                            name: 'assets/[hash].[ext]'
                         }
-                    }
-
-                ]
-            },  //Loader imágenes
-            {
-                test: /\.html$/,
-                use: [
-                    {
-                        loader: "html-loader",
                     }
                 ]
             },
-            {
+            { // Loader para css
                 test: /\.css$/,
-                use: [
-                    MiniCssExtractPlugin.loader,
-                    'css-loader'
-                ]
-            }
-
+                use:  ['style-loader','css-loader']
+            },
         ]
     },
-    plugins: [
-        new HtmlWebpackPlugin({
-            template: './index.html',
-            filename: "index.html"
-        }),
+
+    plugins:[
         new MiniCssExtractPlugin()
     ],
     devServer: {
-        historyApiFallback: true,
-        contentBase: path.join(__dirname, "dist"),
-        compress: true,
-        port: 3000,
-    },
+        historyApiFallback:true,
+    }
 }

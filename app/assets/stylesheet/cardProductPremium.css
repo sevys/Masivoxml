@@ -1,0 +1,27 @@
+#CardSizePremium{
+    width: auto;
+    height: 700px;
+    border-radius: 20px;
+}
+#colorHeaderPremium{
+    background-color: #F4623A;
+    height: 65px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#buttonPremium{
+    background-color: #F4623A;
+    color:#FFFFFF;
+    width: 250px;
+    border-radius: 15px;
+    margin-block: 7px;
+    border-color: #F4623A;
+}
+.card-textPremium{
+    background-color:#FFFFFF;
+    list-style-type:symbols("*");
+    height: 550px;
+    text-align: left;
+    font-size:15px;
+}
+
