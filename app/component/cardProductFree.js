@@ -18,27 +18,27 @@ render() {
                    <div className="card-body">
                        <p className="card-text">
                            <li>Descarga masiva de XML del SAT (HASTA 100 XMLS)</li>
-
+                           <br/>
                            <li>Organización de XML</li>
-
+                           <br/>
                           <li> Exportar información a Excel (100 REGISTROS)</li>
-
+                           <br/>
                            <li>Filtrado de Información</li>
-
+                           <br/>
                            <li>Exportar a PDF la información (100 REGISTROS)</li>
-
+                           <br/>
                            <li>Actualizaciones gratuitas</li>
-
+                           <br/>
                            <li>Exportaciión a pdf de Complemento Servicios de Plataformas Tecnoliógicas</li>
-
+                           <br/>
                            <li>Exportación xml a PDF (Facturas y Nóminas) (uno X uno)</li>
-
+                           <br/>
                            <li>Complemento Servicios de Plataformas Tecnológicas exportación a PDF</li>
-
+                           <br/>
                            <li>Descarga masiva XML por RFC</li>
-
+                           <br/>
                            <li>Validación de listas negras del SAT (incumplidos, agraviados, desvirtuados, definitivos)(100 registros)</li>
-
+                           <br/>
                            <li>Validación de vigentes y cancelados(100 registros)</li>
                        </p>
                        <a href="#" className="btn btn-primary" id="button">DESCARGAR</a>

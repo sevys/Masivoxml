@@ -1,0 +1,10 @@
+#footerContent{
+    border-color: #2369FF;
+}
+.footerTextDireccion{
+    text-align: center;
+    font-size:15px
+}
+.footerAlign{
+   align-content: end;
+}

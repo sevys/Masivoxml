@@ -2,6 +2,7 @@
     width: auto;
     height: 700px;
     border-radius: 20px;
+    border-color: black;
 }
 #colorHeader{
     background-color: #01C0A1;
@@ -22,6 +23,6 @@
     height: 550px;
     list-style-type:symbols("*");
     text-align: left;
-    font-size:15px;
+    font-size:12px;
 }
 

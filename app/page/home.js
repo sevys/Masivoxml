@@ -4,15 +4,16 @@ import Card from "../component/cardProductFree";
 import CardBasic from "../component/cardProductBasic";
 import CardPremium from "../component/cardProductPremium";
 import Header from "../component/Header";
+import Footer from "../component/Footer";
 class home extends React.Component{
     constructor(props) {
         super(props);
     }
        render() {
            return(
-               <div>
+               <div className="Home">
                    <section><Header/></section>
-                   <section className="Home">
+                   <section>
                        <div className="container">
                            <div className="row justify-content-center">
                                <div className="col-lg-3">
@@ -26,6 +27,9 @@ class home extends React.Component{
                                </div>
                            </div>
                        </div>
+                   </section>
+                   <section>
+                       <Footer/>
                    </section>
                </div>
            )

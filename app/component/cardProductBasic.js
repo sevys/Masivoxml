@@ -18,29 +18,29 @@ class cardProductBasic extends React.Component{
                             <div className="card-body">
                                 <p className="card-textBasic">
                                     <li>Descarga masiva de XML del SAT (2000 al dia por RFC)</li>
-
+                                    <br/>
                                     <li>Organización de XML</li>
-
+                                    <br/>
                                     <li>Exportar información a Excel</li>
-
+                                    <br/>
                                     <li>Filtrado de Información</li>
-
+                                    <br/>
                                     <li>Exportar a PDF la información</li>
-
+                                    <br/>
                                     <li>Exportaciión a pdf de Complemento Servicios de Plataformas Tecnoliógicas</li>
-
+                                    <br/>
                                     <li>Actualizaciones gratuitas</li>
-
+                                    <br/>
                                     <li>Exportación xml a PDF (Facturas y Nóminas)</li>
-
+                                    <br/>
                                     <li>Complemento Servicios de Plataformas Tecnológicas exportación a PDF</li>
-
+                                    <br/>
                                     <li>Descarga masiva XML por RFC y Fiel</li>
-
+                                    <br/>
                                     <li>Validación de listas negras del SAT (incumplidos, agraviados, desvirtuados, definitivos)</li>
-
+                                    <br/>
                                     <li>Validación de vigentes y cancelados</li>
-
+                                    <br/>
                                     <li>Generación de PDF con Logo</li>
 
                                 </p>
