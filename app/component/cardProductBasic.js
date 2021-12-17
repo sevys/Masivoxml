@@ -1,5 +1,8 @@
 import React from 'react';
 import css from "../assets/stylesheet/cardProductBasic.css"
+import {Link, Redirect } from "react-router-dom";
+import {Button} from "bootstrap";
+
 class cardProductBasic extends React.Component{
     constructor(props) {
         super(props);
@@ -44,7 +47,9 @@ class cardProductBasic extends React.Component{
                                     <li>Generación de PDF con Logo</li>
 
                                 </p>
-                                <a href="#" className="btn btn-primary" id="buttonBasic">COMPRAR</a>
+                                <Link  to='/Basic'>
+                                    <a href="#" className="btn btn-primary" id="button">COMPRAR</a>
+                                </Link>
                             </div>
                         </div>
                     </div>

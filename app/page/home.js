@@ -4,6 +4,7 @@ import Card from "../component/cardProductFree";
 import CardBasic from "../component/cardProductBasic";
 import CardPremium from "../component/cardProductPremium";
 import Header from "../component/Header";
+import Footer from "../component/Footer";
 import Carousel from '../component/Carousel';
 class home extends React.Component{
     constructor(props) {
@@ -29,6 +30,7 @@ class home extends React.Component{
                            </div>
                        </div>
                    </section>
+                    <Footer/>
                </div>
            )
         }

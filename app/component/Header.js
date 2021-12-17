@@ -9,6 +9,7 @@ class Header extends React.Component{
 
     render(){
         return(
+            <header>
             <div >
                     <div className="container-fluid ">
                         <div className="header-hihg">
@@ -48,9 +49,10 @@ class Header extends React.Component{
                                 </li>
 
                             </ul>
-                        </div>
+                        </div >
                     </div>
             </div>
+            </header>
         )
     }
 
