@@ -1,0 +1,17 @@
+#CardSizeTicket{
+    width: 400px;
+    height: 300px;
+    border-color: #5652FC;
+    background-color: #E8EBFE;
+}
+#CardSizeBody{
+    width: auto;
+    height: 150px;
+    background-color:#E8EBFE ;
+    text-align: justify;
+}
+.LineTicket{
+    width: 360px;
+    height: 1px;
+    background-color: black;
+}
