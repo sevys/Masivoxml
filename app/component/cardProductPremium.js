@@ -1,5 +1,6 @@
 import React from 'react';
 import css from "../assets/stylesheet/cardProductPremium.css"
+import {Link} from "react-router-dom";
 class cardProductPremium extends React.Component{
     constructor(props) {
         super(props);
@@ -44,7 +45,9 @@ class cardProductPremium extends React.Component{
                                     <li>Generación de PDF con Logo</li>
 
                                 </p>
-                                <a href="#" className="btn btn-primary" id="buttonPremium">COMPRAR</a>
+                                <Link  to='/Premium'>
+                                    <a href="#" className="btn btn-primary" id="button">COMPRAR</a>
+                                </Link>
                             </div>
                         </div>
                     </div>
