@@ -8,14 +8,14 @@ class App extends React.Component{
     render() {
         return(
 
-            <BrowserRouter>
+            <HashRouter>
                 <Switch>
                     <Route exact path='/' component={home}/>
                     <Route exact path='/Basic' component={Basic}/>
                     <Route exact path='/Premium' component={Premium}/>
                     <Route exact path='/Videotutoriales' component={Videotutorial}/>
                 </Switch>
-            </BrowserRouter>
+            </HashRouter>
         )
     }
 }
