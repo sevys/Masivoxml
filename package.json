@@ -30,9 +30,7 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.1"
   },
-  "devDependencies": {
 
-  },
   "scripts": {
     "start": "webpack-dev-server --mode development --open"
   },
