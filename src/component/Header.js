@@ -32,23 +32,23 @@ class Header extends React.Component{
                             <ul className="nav justify-content-center">
                                 <li className="nav-item">
                                     <Link to="/">
-                                        INICIO
+                                     <a>INICIO</a>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link to="/Videotutoriales">
-                                       VIDEOTUTORIALES
+                                       <a>VIDEOTUTORIALES</a>
                                     </Link>
 
                                 </li>
                                 <li className="nav-item">
                                     <Link to="/Basic" >
-                                        BASICO
+                                        <a>BASICO</a>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link to='/Premium' >
-                                        PREMIUM
+                                        <a>PREMIUM</a>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
