@@ -6,6 +6,7 @@ import CardPremium from "../component/cardProductPremium";
 import Header from "../component/Header";
 import Footer from "../component/Footer";
 import Carousel from '../component/Carousel';
+
 class home extends React.Component{
     constructor(props) {
         super(props);

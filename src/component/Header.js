@@ -1,6 +1,7 @@
 import React from 'react';
 import  '../assets/stylesheet/Header.css';
-import logo from '../assets/img/logo.jpeg'
+import logo from '../assets/img/logo.jpeg';
+import {Link } from 'react-router-dom';
 
 class Header extends React.Component{
     constructor(props) {
@@ -30,16 +31,25 @@ class Header extends React.Component{
                         <div className="header-button">
                             <ul className="nav justify-content-center">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">INICIO</a>
+                                    <Link to="/" style={{ textDecoration: 'none' }}>
+                                        <a className="nav-link" href="#">INICIO</a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">VIDEOTUTORIALES</a>
+                                    <Link to="/Videotutoriales" style={{ textDecoration: 'none' }}>
+                                        <a className="nav-link" href="#">VIDEOTUTORIALES</a>
+                                    </Link>
+
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">BASICO</a>
+                                    <Link to="/Basic" style={{ textDecoration: 'none' }}>
+                                        <a className="nav-link" href="#">BASICO</a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link " href="#">PREMIUM</a>
+                                    <Link to='/Premium' style={{ textDecoration: 'none' }}>
+                                        <a className="nav-link " href="#">PREMIUM</a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link " href="#">MANUAL</a>
