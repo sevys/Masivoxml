@@ -42,7 +42,6 @@ class Basic extends React.Component{
                             <input type="text" name="nombre" id="nombre" placeholder="Nombre completo"/>
                             <input type="email" name="email" id="email" placeholder="Correo Electronico" required />
                             <input type="text" name="apellidos" id="apellidos" placeholder="Telefono "/>
-                             <input type ="text" name="asunto" id="asunto" placeholder="codigo de promocion"/>
                             <input type ="number" name="asunto" id="asunto" placeholder="1"/>
 
                             <input type="submit" name="enviar" value="Siguiente"/>

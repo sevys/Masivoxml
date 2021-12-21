@@ -1,9 +1,7 @@
 import React from 'react';
-import css from "../assets/stylesheet/cardProductBasic.css"
-import {Link, Redirect } from "react-router-dom";
-import {Button} from "bootstrap";
-
-class cardProductBasic extends React.Component{
+import css from "../assets/stylesheet/cardProductPremium.css"
+import {Link} from "react-router-dom";
+class cardProductPremium extends React.Component{
     constructor(props) {
         super(props);
 
@@ -12,15 +10,15 @@ class cardProductBasic extends React.Component{
         return(
             <React.Fragment>
                 <div>
-                    <div className="card text-center mb-3"id="CardSizeBasic">
+                    <div className="card text-center mb-3"id="CardSizePremium">
                         <div className="row g-0">
-                            <div className="card-header" id="colorHeaderBasic">
-                                Basico.
-                                $1,199.00/Anual.
+                            <div className="card-header" id="colorHeaderPremium">
+                                Premium.
+                                $1,799.00/Anual.
                             </div>
                             <div className="card-body">
-                                <p className="card-textBasic">
-                                    <li>Descarga masiva de XML del SAT (2000 al dia por RFC)</li>
+                                <p className="card-textPremium">
+                                    <li>Descarga masiva de XML Podrás recuperar hasta 200 mil registros</li>
                                     <br/>
                                     <li>Organización de XML</li>
                                     <br/>
@@ -30,13 +28,13 @@ class cardProductBasic extends React.Component{
                                     <br/>
                                     <li>Exportar a PDF la información</li>
                                     <br/>
-                                    <li>Exportaciión a pdf de Complemento Servicios de Plataformas Tecnoliógicas</li>
+                                    <li>Exportaciión a pdf de Complemento Servicios de
+                                        Plataformas Tecnoliógicas</li>
                                     <br/>
                                     <li>Actualizaciones gratuitas</li>
                                     <br/>
-                                    <li>Exportación xml a PDF (Facturas y Nóminas)</li>
-                                    <br/>
-                                    <li>Complemento Servicios de Plataformas Tecnológicas exportación a PDF</li>
+                                    <li>Exportación xml a PDF (Facturas y Nóminas)
+                                        Complemento Servicios de Plataformas Tecnológicas exportacin a PDF</li>
                                     <br/>
                                     <li>Descarga masiva XML por RFC y Fiel</li>
                                     <br/>
@@ -47,8 +45,8 @@ class cardProductBasic extends React.Component{
                                     <li>Generación de PDF con Logo</li>
 
                                 </p>
-                                <Link  to='/Basic'>
-                                    <a href="#" className="btn btn-primary" id="button">COMPRAR</a>
+                                <Link  to='/Premium'>
+                                    <a href="#" className="btn btn-primary" id="buttonPremium">COMPRAR</a>
                                 </Link>
                             </div>
                         </div>
@@ -58,4 +56,4 @@ class cardProductBasic extends React.Component{
         )
     }
 }
-export default cardProductBasic;
+export default cardProductPremium;

@@ -10,7 +10,6 @@ class CardticketPremium extends React.Component{
                             <p className="card-textBasic justify-content-center" id="CardSizeBody">
                                 <p>Precio Unitario --------$ 1799.00</p>
                                 <p>Precio Normal ---------$ 1199</p>
-                                <p>Descuento -------------$ 0</p>
                                 <p>Subtotal ----------------$ 1799</p>
                                 <p>IVA ----------------------$ 287.84</p>
                                 <br/>

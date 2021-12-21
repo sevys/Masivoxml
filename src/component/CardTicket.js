@@ -10,7 +10,6 @@ class CardTicket extends React.Component{
                         <p className="card-textBasic justify-content-center" id="CardSizeBody">
                             <p>Precio Unitario --------$ 1199.00</p>
                             <p>Precio Normal ---------$ 1199</p>
-                            <p>Descuento -------------$ 0</p>
                             <p>Subtotal ----------------$ 1199</p>
                             <p>IVA ----------------------$ 191.84</p>
                             <br/>
