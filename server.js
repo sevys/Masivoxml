@@ -5,12 +5,11 @@ const port = process.env.PORT || 8080;
 const app = express();
 // the __dirname is the current directory from where the script is running
 app.use(express.static(__dirname));
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public/')));
 app.get('/ping', function (req, res) {
     return res.send('pong');
 });
 // directorios estaticos
-app.use(express.static(path.join(__dirname, 'public/assets')));
 
 app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname, 'index.html'));
