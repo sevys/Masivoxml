@@ -9,6 +9,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/ping', function (req, res) {
     return res.send('pong');
 });
+// directorios estaticos
+app.use(express.static(__dirname +'/public/assets'))
 app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
