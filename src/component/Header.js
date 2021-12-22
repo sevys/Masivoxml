@@ -12,7 +12,7 @@ class Header extends React.Component{
         return(
             <header>
             <div >
-                    <div className="container-fluid ">
+                    <div className="container-lg-12 container-xl-12 container-xxl-12 container-md-12 container-sm-12">
                         <div className="header-hihg">
                             <ul className="nav justify-content-center">
                                 <li className="nav-item">
@@ -31,23 +31,23 @@ class Header extends React.Component{
                         <div className="header-button">
                             <ul className="nav justify-content-center">
                                 <li className="nav-item">
-                                    <Link to="/" style={{ textDecoration: 'none' }}>
-                                        <a className="nav-link" href="#">INICIO</a>
+                                    <Link to="/">
+                                     <a className="nav-link " href="#">INICIO</a>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/Videotutoriales" style={{ textDecoration: 'none' }}>
-                                        <a className="nav-link" href="#">VIDEOTUTORIALES</a>
+                                    <Link to="/Videotutoriales">
+                                       <a className="nav-link " href="#">VIDEOTUTORIALES</a>
                                     </Link>
 
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/Basic" style={{ textDecoration: 'none' }}>
-                                        <a className="nav-link" href="#">BASICO</a>
+                                    <Link to="/Basic" >
+                                        <a className="nav-link " href="#">BASICO</a>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to='/Premium' style={{ textDecoration: 'none' }}>
+                                    <Link to='/Premium' >
                                         <a className="nav-link " href="#">PREMIUM</a>
                                     </Link>
                                 </li>

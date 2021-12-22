@@ -8,3 +8,13 @@
 .footerAlign{
    align-content: end;
 }
+.imgSizeFooter{
+    align-content: center;
+    height: 28px;
+    width: 28px;
+}
+.lineFooter{
+    width: 1px;
+    height: 200px;
+    background-color: #5652FC;
+}

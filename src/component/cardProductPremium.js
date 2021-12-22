@@ -10,11 +10,11 @@ class cardProductPremium extends React.Component{
         return(
             <React.Fragment>
                 <div>
-                    <div className="card text-center mb-3"id="CardSizePremium">
+                    <div className="shadow card text-center mb-3"id="CardSizePremium">
                         <div className="row g-0">
                             <div className="card-header" id="colorHeaderPremium">
-                                Premium.
-                                $1,799.00/Anual.
+                                <h6 className="text-uppercase fw-bold mb-1 text-white">Premium. </h6>
+                                <h5 className="text-uppercase fw-bold mb-1"> $1,799.00/Anual. </h5>
                             </div>
                             <div className="card-body">
                                 <p className="card-textPremium">
@@ -45,9 +45,11 @@ class cardProductPremium extends React.Component{
                                     <li>Generación de PDF con Logo</li>
 
                                 </p>
+                                <div className="d-grid gap-2 col-10 mx-auto">
                                 <Link  to='/Premium'>
                                     <a href="#" className="btn btn-primary" id="buttonPremium">COMPRAR</a>
                                 </Link>
+                                </div>
                             </div>
                         </div>
                     </div>

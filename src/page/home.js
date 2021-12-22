@@ -17,15 +17,15 @@ class home extends React.Component{
                    <section><Header/></section>
                    <section><Carousel/></section>
                    <section className="Home">
-                       <div className="container">
+                       <div className=" Home container-fluid mb-5">
                            <div className="row justify-content-center ">
-                               <div className="col-lg-3 mt-5">
+                               <div className="col-lg-3 col-xl-3 col-xxl-3 col-md-5 col-sm-8 mt-5 mb-5">
                                    <Card/>
                                </div>
-                               <div className="col-lg-3 mt-5">
+                               <div className="col-lg-3 col-xl-3 col-xxl-3 col-md-5 col-sm-8 mt-5 mb-5">
                                    <CardBasic/>
                                </div>
-                               <div className="col-lg-3 mt-5">
+                               <div className="col-lg-3 col-xl-3 col-xxl-3 col-md-5 col-sm-8 mt-5 mb-5">
                                    <CardPremium/>
                                </div>
                            </div>

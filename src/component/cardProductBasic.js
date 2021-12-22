@@ -12,11 +12,11 @@ class cardProductBasic extends React.Component{
         return(
             <React.Fragment>
                 <div>
-                    <div className="card text-center mb-3"id="CardSizeBasic">
+                    <div className="shadow card text-center mb-3"id="CardSizeBasic">
                         <div className="row g-0">
                             <div className="card-header" id="colorHeaderBasic">
-                                Basico.
-                                $1,199.00/Anual.
+                                <h6 className="text-uppercase fw-bold mb-1 text-white">Basico</h6>
+                                <h5 className="text-uppercase fw-bold mb-1">$1,199.00/Anual.</h5>
                             </div>
                             <div className="card-body">
                                 <p className="card-textBasic">
@@ -47,9 +47,11 @@ class cardProductBasic extends React.Component{
                                     <li>Generación de PDF con Logo</li>
 
                                 </p>
+                                <div className="d-grid gap-2 col-10 mx-auto">
                                 <Link  to='/Basic'>
                                     <a href="#" className="btn btn-primary" id="buttonBasic">COMPRAR</a>
                                 </Link>
+                                </div>
                             </div>
                         </div>
                     </div>

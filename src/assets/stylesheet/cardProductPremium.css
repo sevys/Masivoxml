@@ -3,6 +3,7 @@
     height: 700px;
     border-radius: 20px;
     border-color: black;
+    border-width: 2px;
 }
 #colorHeaderPremium{
     background-color: #F4623A;
@@ -13,7 +14,7 @@
 #buttonPremium{
     background-color: #F4623A;
     color:#FFFFFF;
-    width: 250px;
+    width: 100%;
     border-radius: 15px;
     margin-block: 7px;
     border-color: #F4623A;
