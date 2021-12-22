@@ -12,7 +12,7 @@ class Header extends React.Component{
         return(
             <header>
             <div >
-                    <div className="container-fluid ">
+                    <div className="container-lg-12 container-xl-12 container-xxl-12 container-md-12 container-sm-12">
                         <div className="header-hihg">
                             <ul className="nav justify-content-center">
                                 <li className="nav-item">

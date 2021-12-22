@@ -26,7 +26,7 @@ class Basic extends React.Component{
     render(){
         return(
             <div>
-                <div>
+                <div className="mb-5 ">
                    <Header/>
                 </div>
                 <div>

@@ -9,11 +9,11 @@ render() {
     return(
         <React.Fragment>
            <div>
-               <div className="card text-center mb-3"id="CardSize">
+               <div className="shadow card text-center mb-3"id="CardSize">
                    <div className="row g-0">
                    <div className="card-header" id="colorHeader">
-                      Gratuito( 30 dias).
-                             $0
+                       <h6 className="text-uppercase fw-bold mb-1 text-white">Gratuito( 30 dias). </h6>
+                       <h5 className="text-uppercase fw-bold mb-1"> $0 </h5>
                    </div>
                    <div className="card-body">
                        <p className="card-text">
@@ -41,7 +41,9 @@ render() {
                            <br/>
                            <li>Validación de vigentes y cancelados(100 registros)</li>
                        </p>
+                       <div className="d-grid gap-2 col-10 mx-auto">
                        <a href="#" className="btn btn-primary" id="button">DESCARGAR</a>
+                       </div>
                      </div>
                    </div>
                </div>

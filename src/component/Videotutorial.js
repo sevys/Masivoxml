@@ -11,7 +11,7 @@ class Videotutorial extends React.Component{
     render(){
         return(
             <>
-                <section><Header/></section>
+                <section className="mb-2"><Header/></section>
                 <div className="video">
                     <iframe src="https://www.youtube.com/embed/aQpJ37JLUio"
                             title="YouTube video player" frameBorder="0"
