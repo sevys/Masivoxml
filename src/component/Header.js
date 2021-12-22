@@ -31,31 +31,31 @@ class Header extends React.Component{
                         <div className="header-button">
                             <ul className="nav justify-content-center">
                                 <li className="nav-item">
-                                    <Link to="/">
-                                     <a className="nav-link " href="#">INICIO</a>
+                                    <Link to="/" style={{ textDecoration: 'none' }}>
+                                     <a className="nav-link " style={{color: 'white'}}>INICIO</a>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/Videotutoriales">
-                                       <a className="nav-link " href="#">VIDEOTUTORIALES</a>
+                                    <Link to="/Videotutoriales" style={{ textDecoration: 'none' }}>
+                                       <a className="nav-link " style={{color: 'white'}}>VIDEOTUTORIALES</a>
                                     </Link>
 
                                 </li>
-                                <li className="nav-item">
-                                    <Link to="/Basic" >
-                                        <a className="nav-link " href="#">BASICO</a>
+                                <li className="nav-item" >
+                                    <Link to="/Basic" style={{ textDecoration: 'none' }}>
+                                        <a className="nav-link " style={{color: 'white'}}>BASICO</a>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to='/Premium' >
-                                        <a className="nav-link " href="#">PREMIUM</a>
+                                    <Link to='/Premium' style={{ textDecoration: 'none' }}>
+                                        <a className="nav-link " style={{color: 'white'}}>PREMIUM</a>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link " href="#">MANUAL</a>
+                                    <a className="nav-link " style={{color: 'white'}}>MANUAL</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link " href="#">TERMINOS Y CONDICIONES</a>
+                                    <a className="nav-link " style={{color: 'white'}}>TERMINOS Y CONDICIONES</a>
                                 </li>
 
                             </ul>

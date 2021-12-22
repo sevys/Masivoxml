@@ -1,0 +1,43 @@
+
+.product-stripe{
+    overflow: scroll;
+    overflow: hidden;
+    height: 400px;
+
+
+}
+.stripe-container{
+    display: flex;
+    transform: translateX(0);
+    animation: slider 15s infinite;
+    height: 400px;
+
+}
+.image-container, .oki{
+    flex-wrap: wrap;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+    height: 400px;
+    color: white;
+}
+@keyframes slider {
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-100%);
+    }
+    45%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+
+}
