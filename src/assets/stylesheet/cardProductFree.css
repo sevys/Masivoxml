@@ -1,9 +1,10 @@
 #CardSize{
     width: auto;
-    height: 700px;
+    height: 850px;
     border-radius: 20px;
     border-color: black;
     border-width: 2px;
+    box-shadow: 4px 4px 10px #C0C0C0;
 }
 #colorHeader{
     background-color: #01C0A1;
@@ -13,17 +14,15 @@
 }
 #button{
     background-color: #01C0A1;
-    color:#000000;
+    color:#FFFFFF;
     width: 100%;
-    border-radius: 15px;
     margin-block: 7px;
+    border-radius: 15px;
     border-color: #01C0A1;
 }
 .card-text{
     background-color:#FFFFFF;
-    height: 550px;
-    list-style-type:symbols("*");
-    text-align: left;
-    font-size:12px;
+    height:700px;
+    font-size:14px;
 }
 

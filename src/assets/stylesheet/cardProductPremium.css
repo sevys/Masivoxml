@@ -1,29 +1,28 @@
 #CardSizePremium{
     width: auto;
-    height: 700px;
+    height: 850px;
     border-radius: 20px;
     border-color: black;
     border-width: 2px;
+    box-shadow: 4px 4px 10px #C0C0C0;
 }
 #colorHeaderPremium{
-    background-color: #F4623A;
+    background-color: #EA1010;
     height: 65px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 #buttonPremium{
-    background-color: #F4623A;
+    background-color: #EA1010;
     color:#FFFFFF;
     width: 100%;
     border-radius: 15px;
     margin-block: 7px;
-    border-color: #F4623A;
+    border-color: #EA1010;
 }
 .card-textPremium{
     background-color:#FFFFFF;
-    list-style-type:symbols("*");
-    height: 550px;
-    text-align: left;
-    font-size:12px;
+    height:700px;
+    font-size:14px;
 }
 

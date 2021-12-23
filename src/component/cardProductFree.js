@@ -9,14 +9,14 @@ render() {
     return(
         <React.Fragment>
            <div>
-               <div className="shadow card text-center mb-3"id="CardSize">
+               <div className="card mb-3"id="CardSize">
                    <div className="row g-0">
-                   <div className="card-header" id="colorHeader">
+                   <div className="card-header text-center" id="colorHeader">
                        <h6 className="text-uppercase fw-bold mb-1 text-white">Gratuito( 30 dias). </h6>
-                       <h5 className="text-uppercase fw-bold mb-1"> $0 </h5>
+                       <h5 className="text-uppercase fw-bold mb-1 text-white"> $0 </h5>
                    </div>
                    <div className="card-body">
-                       <p className="card-text">
+                       <p className="text-justify card-text">
                            <li>Descarga masiva de XML del SAT (HASTA 100 XMLS)</li>
                            <br/>
                            <li>Organización de XML</li>

@@ -12,14 +12,14 @@ class cardProductBasic extends React.Component{
         return(
             <React.Fragment>
                 <div>
-                    <div className="shadow card text-center mb-3"id="CardSizeBasic">
+                    <div className="card  mb-3" id="CardSizeBasic">
                         <div className="row g-0">
-                            <div className="card-header" id="colorHeaderBasic">
-                                <h6 className="text-uppercase fw-bold mb-1 text-white">Basico</h6>
-                                <h5 className="text-uppercase fw-bold mb-1">$1,199.00/Anual.</h5>
+                            <div className="card-header text-center" id="colorHeaderBasic">
+                                <h6 className="text-uppercase fw-bold mb-1 text-white">Basico.</h6>
+                                <h5 className="text-uppercase fw-bold mb-1 text-white">$1,199.00/Anual.</h5>
                             </div>
                             <div className="card-body">
-                                <p className="card-textBasic">
+                                <p className="text-justify card-textBasic">
                                     <li>Descarga masiva de XML del SAT (2000 al dia por RFC)</li>
                                     <br/>
                                     <li>Organización de XML</li>

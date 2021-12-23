@@ -10,9 +10,9 @@ class Header extends React.Component{
 
     render(){
         return(
-            <header>
+            <header className="mb-5">
             <div >
-                    <div className="container-lg-12 container-xl-12 container-xxl-12 container-md-12 container-sm-12">
+                    <div className="container-lg-12 container-xl-12 container-xxl-12 container-md-12 container-sm-12 fixed-top">
                         <div className="header-hihg">
                             <ul className="nav justify-content-center">
                                 <li className="nav-item">

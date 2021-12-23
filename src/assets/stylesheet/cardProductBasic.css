@@ -1,30 +1,29 @@
 #CardSizeBasic{
     width: auto;
-    height: 700px;
+    height: 850px;
     border-radius: 20px;
     border-color: black;
     border-width: 2px;
+    box-shadow: 4px 4px 10px #C0C0C0;
 }
 #colorHeaderBasic{
-    background-color: #2369FF;
+    background-color: #15297C;
     width: 100%;
     height: 65px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 #buttonBasic{
-    background-color: #2369FF;
+    background-color: #15297C;
     color:#FFFFFF;
     width: 100%;
     border-radius: 15px;
     margin-block: 7px;
-    border-color: #2369FF;
+    border-color: #15297C;
 }
 .card-textBasic{
     background-color:#FFFFFF;
-    height: 550px;
-    list-style-type:symbols("*");
-    text-align: left;
-    font-size:12px;
+    height:700px;
+    font-size:14px;
 }
 

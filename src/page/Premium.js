@@ -29,6 +29,8 @@ class Premium extends React.Component{
                 <div>
                     <Header/>
                 </div>
+                <div className="Separator">
+                </div>
                 <div>
                     <div className="licencia mt-5">
                         <h2 >

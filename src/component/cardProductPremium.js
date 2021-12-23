@@ -10,14 +10,14 @@ class cardProductPremium extends React.Component{
         return(
             <React.Fragment>
                 <div>
-                    <div className="shadow card text-center mb-3"id="CardSizePremium">
+                    <div className="card mb-3" id="CardSizePremium">
                         <div className="row g-0">
-                            <div className="card-header" id="colorHeaderPremium">
+                            <div className="card-header text-center" id="colorHeaderPremium">
                                 <h6 className="text-uppercase fw-bold mb-1 text-white">Premium. </h6>
-                                <h5 className="text-uppercase fw-bold mb-1"> $1,799.00/Anual. </h5>
+                                <h5 className="text-uppercase fw-bold mb-1 text-white"> $1,799.00/Anual. </h5>
                             </div>
                             <div className="card-body">
-                                <p className="card-textPremium">
+                                <p className="text-justify card-textPremium">
                                     <li>Descarga masiva de XML Podrás recuperar hasta 200 mil registros</li>
                                     <br/>
                                     <li>Organización de XML</li>

@@ -6,9 +6,8 @@ class Footer extends React.Component{
     render(){
         return(
             <footer className=" text-center text-lg-start bg-light ">
-                <br/>
                 <section className="">
-                    <div className="container text-center text-md-start mt-5">
+                    <div className="container text-center text-md-start">
 
                         <div className="row mt-3">
 
@@ -29,10 +28,10 @@ class Footer extends React.Component{
                                     soporte@masivoxml.com
                                 </p>
                             </div>
-                            <div className="col-md-1 col-lg-1 col-xl-1 mx-auto mb-5">
+                            <div className="col-md-1 col-lg-1 col-xl-1 mx-auto">
                                 <div className="lineFooter"></div>
                             </div>
-                            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-5">
+                            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto">
                                 <a>
                                     <img className="imgSizeFooter" src={telefono} />
                                 </a>
@@ -42,7 +41,7 @@ class Footer extends React.Component{
                                     Oficina.: (961) 225 9998
                                 </p>
                             </div>
-                            <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mb-5">
+                            <div className="col-md-3 col-lg-3 col-xl-3 mx-auto">
                                 <a>
                                     <img className="imgSizeFooter" src={carta} />
                                 </a>
@@ -50,7 +49,7 @@ class Footer extends React.Component{
                                     contacto@masivoxml.com
                                 </p>
                             </div>
-                            <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mb-5">
+                            <div className="col-md-3 col-lg-3 col-xl-3 mx-auto">
                                 <p className="footerTextDireccion">
                                     Direccion
                                     <br/>
@@ -62,7 +61,10 @@ class Footer extends React.Component{
                         </div>
                     </div>
                 </section>
-                <hr/>
+                <div className="endBar text-center">
+                    <br/>
+                    <h6 className="text-uppercase text-white">Copyright © 2021</h6>
+                </div>
             </footer>
         )
     }

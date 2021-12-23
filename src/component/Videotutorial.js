@@ -10,8 +10,10 @@ class Videotutorial extends React.Component{
     }
     render(){
         return(
-            <>
+            <div>
                 <section className="mb-2"><Header/></section>
+                <div className="Separator">
+                </div>
                 <div className="video">
                     <iframe src="https://www.youtube.com/embed/aQpJ37JLUio"
                             title="YouTube video player" frameBorder="0"
@@ -19,7 +21,7 @@ class Videotutorial extends React.Component{
                             allowFullScreen></iframe>
                 </div>
                 <section><Footer/></section>
-            </>
+            </div>
         )
     }
 
