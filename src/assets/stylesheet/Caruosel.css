@@ -1,8 +1,25 @@
-
+.pes{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 75px;
+    color: #FFF8F8;
+    text-align: center;
+}
+.text-carousel{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
 .product-stripe{
     overflow: scroll;
     overflow: hidden;
-    height: 400px;
+    height: 540px;
 
 
 }
@@ -10,7 +27,7 @@
     display: flex;
     transform: translateX(0);
     animation: slider 15s infinite;
-    height: 400px;
+    height: 540px;
 
 }
 .image-container, .oki{
@@ -19,25 +36,51 @@
     background-size: cover;
     background-position: center;
     flex-shrink: 0;
-    height: 400px;
+    height: 540px;
+}
+.btn-carousel{
     color: white;
+    width: 340px;
+    height: 60px;
+    background: #18123E;
+    border: 1px solid #FFF8F8;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.linea-1{
+    width: 130px;
+    height: 6px;
+    left: 868px;
+    top: 459px;
+    background: #F4623A;
+}
+.linea-2{
+    width: 130px;
+    height: 6px;
+    left: 891px;
+    top: 459px;
+    background: #FFF8F8;
 }
 @keyframes slider {
     0%{
         transform: translateX(0);
     }
-    20%{
+    45%{
         transform: translateX(0);
     }
-    25%{
+    50%{
         transform: translateX(-100%);
     }
-    45%{
+    85%{
         transform: translateX(-100%);
+    }
+    90%{
+        transform: translateX(0);
     }
     100%{
-        transform: translateX(0);
+        tranform: translateX(0);
     }
+
 
 
 }
