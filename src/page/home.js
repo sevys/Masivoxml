@@ -23,7 +23,7 @@ class home extends React.Component{
                             <div className="container-lg-12 container-xl-12 container-xxl-12 container-md-12 container-sm-12">
                                 <br/>
                                 <div className="row justify-content-center ">
-                                <div className="text-justify text-white col-lg-5 col-xl-5 col-xxl-5 col-md-5 col-sm-5 mb-2">
+                                <div className="text-justify text-white col-lg-8 col-xl-5 col-xxl-5 col-md-8 col-sm-8 mb-2">
                                     <br/>
                                     <h2>+IVO XML PREMIUM.</h2>
                                     <h5 >
