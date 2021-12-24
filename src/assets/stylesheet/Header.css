@@ -18,9 +18,8 @@
     font-size: 25px;
     color: #fff;
     margin-right: 20px;
-    cursor: pointer;
 }
-#navbarNav{
+.navbarEdit{
     background-color: #18123E;
     padding-left: 6%;
 }

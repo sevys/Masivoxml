@@ -35,7 +35,7 @@ class Carousel extends React.Component{
                                 <br/>
                                 <p className="text-carousel">Sistema Operativo Windows 7, 8, 8.1, 10
                                     <br/>
-                                    Internet Explorer 10 u 11text-carousel
+                                    Internet Explorer 10 u 11
                                     <br/>
                                     Meter en excepción de antivirus para poder realizar las actualizaciones</p>
 

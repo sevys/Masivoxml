@@ -1,7 +1,7 @@
 import React from 'react';
 import  '../assets/stylesheet/Header.css';
 import logo from '../assets/img/logo.jpeg';
-import {Link } from 'react-router-dom';
+import {Link,NavLink } from 'react-router-dom';
 
 class Header extends React.Component{
     constructor(props) {
@@ -11,8 +11,7 @@ class Header extends React.Component{
     render(){
         return(
             <header className="mb-5">
-            <div >
-                <div className="container-lg-12 container-xl-12 container-xxl-12 container-md-12 container-sm-12 fixed-top">
+            <div className="container-lg-12 container-xl-12 container-xxl-12 container-md-12 container-sm-12 fixed-top">
                     <div className="header-hihg">
                         <ul className="nav justify-content-center">
                             <li className="nav-item">
@@ -34,34 +33,35 @@ class Header extends React.Component{
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                                         aria-label="Toggle navigation">
-                                    <span className="navbar-toggler-icon text-white">☰</span>
+                                    <span className="navbar-toggler-icon "></span>
                                 </button>
 
-                                <div class="collapse navbar-collapse justify-content-center" id="navbarNav" >
+                                <div className="navbar-collapse justify-content-center collapse navbarEdit" id="navbarNav" >
+
                             <ul className="navbar-nav">
                                 <li className="nav-item" >
-                                    <Link to="/" style={{ textDecoration: 'none' }} >
-                                     <a className="nav-link " style={{color: 'white'}}>INICIO</a>
-                                    </Link>
+                                    <NavLink to="/" style={{ textDecoration: 'none' }} >
+                                     <a className="nav-link active " style={{color: 'white'}}>INICIO</a>
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/Videotutoriales" style={{ textDecoration: 'none' }}>
-                                       <a className="nav-link " style={{color: 'white'}}>VIDEOTUTORIALES</a>
-                                    </Link>
+                                    <NavLink to="/Videotutoriales" style={{ textDecoration: 'none' }}>
+                                       <a className="nav-link active" style={{color: 'white'}}>VIDEOTUTORIALES</a>
+                                    </NavLink>
 
                                 </li>
                                 <li className="nav-item" >
-                                    <Link to="/Basic" style={{ textDecoration: 'none' }}>
-                                        <a className="nav-link " style={{color: 'white'}}>BASICO</a>
-                                    </Link>
+                                    <NavLink to="/Basic" style={{ textDecoration: 'none' }}>
+                                        <a className="nav-link active" style={{color: 'white'}}>BASICO</a>
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <Link to='/Premium' style={{ textDecoration: 'none' }}>
-                                        <a className="nav-link " style={{color: 'white'}}>PREMIUM</a>
+                                        <a className="nav-link active " style={{color: 'white'}}>PREMIUM</a>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link " style={{color: 'white'}}>MANUAL</a>
+                                    <a className="nav-link active " style={{color: 'white'}}>MANUAL</a>
                                 </li>
                                 <li className="nav-item">
                                     <Link to='/Terminos' style={{textDecoration: 'none' }}>
@@ -72,7 +72,6 @@ class Header extends React.Component{
                                 </div>
                             </div>
                         </nav >
-                    </div>
             </div>
             </header>
         )
