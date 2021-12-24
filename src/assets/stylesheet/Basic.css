@@ -2,17 +2,8 @@
     margin: auto;
     text-align:center; padding:8px;
 }
-form{
-    width: 590px;
-
-    margin:auto;
-}
 form input[type="submit"] {
-    height: 40px;
-    width: 400px;
-    margin: auto;
-    padding: 8px 16px;
-    display:block;
+   width: 100%;
     color:#fff;
     border: none;
     background-color:#5652FC;
@@ -22,13 +13,12 @@ form input[type="submit"] {
 form input[type="text"],
 form input[type="number"],
 form input[type="email"]{
-    height: 47px;
+    height: 35px;
     width:100%;
     padding:3px 10px;
     background: #E8EBFE;
     border: 1px solid #5652FC;
     margin:17px 0;
-    display:inline-block;
     border-radius: 20px;
 }
 

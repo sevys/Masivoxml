@@ -5,9 +5,9 @@ class CardTicket extends React.Component{
         return(
             <React.Fragment>
             <div>
-                <div className="card text-center " id="CardSizeTicket">
+                <div className="card justify-content-center " id="CardSizeTicket">
                     <div className="card-body" >
-                        <p className="card-textBasic justify-content-center" id="CardSizeBody">
+                        <p className="text-justify">
                             <p>Precio Unitario --------$ 1199.00</p>
                             <p>Precio Normal ---------$ 1199</p>
                             <p>Subtotal ----------------$ 1199</p>
