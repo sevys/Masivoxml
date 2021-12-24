@@ -22,11 +22,13 @@ class home extends React.Component{
                        <div id="promoHome">
                             <div className="container-lg-12 container-xl-12 container-xxl-12 container-md-12 container-sm-12">
                                 <br/>
-                                <div className="row justify-content-center ">
-                                <div className="text-justify text-white col-lg-5 col-xl-5 col-xxl-5 col-md-5 col-sm-5 mb-2">
+                                <div className="row justify-content-center">
+                                <div className="text-justify text-white col-lg-5 col-xl-5 col-xxl-5 col-md-6 col-sm-6 mb-2">
                                     <br/>
-                                    <h2>+IVO XML PREMIUM.</h2>
-                                    <h5 >
+                                    <div className="card" id="cardPromo">
+                                       <div className="card-body">
+                                           <h2>+IVO XML PREMIUM.</h2>
+                                    <h5>
                                         Incluye:
                                         <br/>
                                         Descarga masiva de XML hasta 200 mil registros,
@@ -43,13 +45,15 @@ class home extends React.Component{
                                     </h1>
                                     <h6>*por un año de licencia</h6>
                                     <br/>
-                                    <div className="d-grid gap-2 col-6">
+                                    <div className="d-grid gap-2 col-lg-6 col-xl-6 col-xxl-6 col-sm-12 col-md-12">
                                         <a href="#" className="btn btn-primary" id="buttonPromo">Comprar ahora</a>
+                                    </div>
+                                       </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-5 col-xl-5 col-xxl-5 col-md-5 col-sm-5 mb-2 m-3">
                                     <a>
-                                        <img className="imgPromo" src={laptop} />
+                                        <img className="imgPromo p-1" src={laptop} />
                                     </a>
                                 </div>
                                 </div>
@@ -59,9 +63,9 @@ class home extends React.Component{
                    <section className="Home mt-5">
                        <div className=" Home container-lg-12 container-xl-12 container-xxl-12 container-md-12 container-sm-12 mb-5">
                            <div className="text-center mb-3">
-                               <h2>Descubra qué plan es adecuado para usted:</h2>
+                               <h2 className="p-2">Descubra qué plan es adecuado para usted:</h2>
                            </div>
-                           <div className="row justify-content-center ">
+                           <div className="row justify-content-center p-3">
                                <div className="col-lg-4 col-xl-3 col-xxl-3 col-md-5 col-sm-7 mt-5 mb-5">
                                    <Card/>
                                </div>

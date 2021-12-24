@@ -9,12 +9,11 @@
 }
 #promoHome{
     width: 100%;
-    height: 460px;
     background-color:#18123E;
 }
 #cardPromo{
-    border-color:#18123E;
-    border-width: 1px;
+    border-color: #18123E;
+   background-color: #18123E;
 }
 #buttonPromo{
     background-color: #EA1010;
@@ -25,7 +24,7 @@
 .imgPromo{
     margin-top: 20px;
     align-content: center;
-    height: 250px;
-    width: 390px;
+    height: 230px;
+    width: 370px;
 
 }

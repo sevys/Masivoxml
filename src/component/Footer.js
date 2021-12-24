@@ -11,7 +11,7 @@ class Footer extends React.Component{
 
                         <div className="row mt-3">
 
-                            <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mb-5">
+                            <div className="col-md-12 col-sm-12 col-lg-3 col-xl-3 col-xxl-3 mx-auto mb-5">
                                 <p>
                                         HORARIO DE ATENCION
                                     <br/>
@@ -28,10 +28,11 @@ class Footer extends React.Component{
                                     soporte@masivoxml.com
                                 </p>
                             </div>
-                            <div className="col-md-1 col-lg-1 col-xl-1 mx-auto">
-                                <div className="lineFooter"></div>
+                            <div className="col-md-1 col-sm-1 col-lg-1 col-xl-1 col-xxl-1 mx-auto">
+                                <div className="lineFooter"/>
                             </div>
-                            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto">
+                            <div className="col-md-8 col-sm-8 col-lg-2 col-xl-2 col-xxl-2 mx-auto">
+
                                 <a>
                                     <img className="imgSizeFooter" src={telefono} />
                                 </a>
@@ -41,7 +42,7 @@ class Footer extends React.Component{
                                     Oficina.: (961) 225 9998
                                 </p>
                             </div>
-                            <div className="col-md-3 col-lg-3 col-xl-3 mx-auto">
+                            <div className="col-md-12 col-lg-2 col-xl-2 col-xxl-2 col-sm-12 mx-auto">
                                 <a>
                                     <img className="imgSizeFooter" src={carta} />
                                 </a>
