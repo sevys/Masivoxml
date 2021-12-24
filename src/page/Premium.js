@@ -37,7 +37,7 @@ class Premium extends React.Component{
                             Licencia +SIVO XML Premium
                         </h2>
                     </div>
-                    <div className="row justify-content-center mb-5">
+                    <div className="row justify-content-center mb-5 p-3">
                         <div className="col-lg-4 col-xl-4 col-xxl-4 col-md-8 col-sm-8 justify-content-center">
                             <form action="#" target="" method="get" name="formDatosPersonales">
 

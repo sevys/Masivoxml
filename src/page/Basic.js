@@ -37,7 +37,7 @@ class Basic extends React.Component{
                             Licencia +SIVO XML Básico
                         </h2>
                     </div>
-                    <div className="row mb-5 justify-content-center">
+                    <div className="row mb-5 justify-content-center p-3">
                     <div className="col-lg-4 col-xl-4 col-xxl-4 col-md-8 col-sm-8 justify-content-center">
                         <form action="#" target="" method="get" name="formDatosPersonales">
 

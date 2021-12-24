@@ -28,17 +28,19 @@ class Header extends React.Component{
                         </ul>
                     </div>
 
-                        <nav className="navbar navbar-expand-md header-button align-content-center">
+                        <nav className="navbar navbar-expand-md header-button  sticky-top">
                             <div className="container-fluid align-content-center">
+
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-                                        aria-expanded="false" aria-label="Toggle navigation">
-                                    <span className="navbar-toggler-icon text-white">|||</span>
+                                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                        aria-label="Toggle navigation">
+                                    <span className="navbar-toggler-icon text-white">☰</span>
                                 </button>
-                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul className="navbar-nav ml-auto">
-                                <li className="nav-item">
-                                    <Link to="/" style={{ textDecoration: 'none' }}>
+
+                                <div class="collapse navbar-collapse justify-content-center" id="navbarNav" >
+                            <ul className="navbar-nav">
+                                <li className="nav-item" >
+                                    <Link to="/" style={{ textDecoration: 'none' }} >
                                      <a className="nav-link " style={{color: 'white'}}>INICIO</a>
                                     </Link>
                                 </li>
