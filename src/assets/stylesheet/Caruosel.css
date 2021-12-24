@@ -2,7 +2,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 75px;
     color: #FFF8F8;
     text-align: center;
@@ -11,7 +11,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 42px;
     text-align: center;
     color: #FFFFFF;
@@ -54,6 +54,8 @@
     left: 868px;
     top: 459px;
     background: #F4623A;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .linea-2{
     width: 130px;
@@ -61,6 +63,8 @@
     left: 891px;
     top: 459px;
     background: #FFF8F8;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 @keyframes slider {
     0%{
