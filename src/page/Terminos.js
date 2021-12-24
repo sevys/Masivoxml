@@ -13,6 +13,8 @@ class Terminos extends React.Component{
                 <div>
                     <Header/>
                 </div>
+                <div className="Separator">
+                </div>
                 <div>
                     <TerminosYcondiciones/>
                 </div>

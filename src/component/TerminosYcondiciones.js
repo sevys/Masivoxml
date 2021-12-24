@@ -6,7 +6,7 @@ class TerminosYcondiciones extends React.Component{
     }
     render() {
         return(
-            <div className="page-section">
+            <div className="page-section ">
                 <div className="container text-center">
                     <div className="row">
                         <div className="col-md-12">

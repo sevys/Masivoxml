@@ -64,7 +64,9 @@ class Header extends React.Component{
                                     <a className="nav-link " style={{color: 'white'}}>MANUAL</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link " style={{color: 'white'}}>TERMINOS Y CONDICIONES</a>
+                                    <Link to='/Terminos' style={{textDecoration: 'none' }}>
+                                        <a className="nav-link " style={{color: 'white'}}>TERMINOS Y CONDICIONES</a>
+                                    </Link>
                                 </li>
                             </ul>
                                 </div>
