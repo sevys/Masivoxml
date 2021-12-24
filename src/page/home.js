@@ -45,7 +45,7 @@ class home extends React.Component{
                                     </h1>
                                     <h6>*por un año de licencia</h6>
                                     <br/>
-                                    <div className="d-grid gap-2 col-6 col-auto">
+                                    <div className="d-grid gap-2 col-lg-6 col-xl-6 col-xxl-6 col-sm-12 col-md-12">
                                         <a href="#" className="btn btn-primary" id="buttonPromo">Comprar ahora</a>
                                     </div>
                                        </div>
